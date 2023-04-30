@@ -8,6 +8,7 @@ function App() {
                 <button>Kolya</button>
                 <button>Kolya</button>
                 <button>Kolya</button>
+                <button>Kolya</button>
             </div>
 
             <div className="horizontal">
