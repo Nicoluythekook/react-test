@@ -1,21 +1,22 @@
 import React from 'react';
 import './App.css';
-import PrimarySearchAppBar from "./components/Navbar/Navbar";
-import PaginationControlled from "./components/Pagination/Pagination";
-import DenseTable from "./components/Table/Table";
 
 function App() {
-  return (
-    <div className="App">
+    return (
+        <div className="App container">
+            <div className="vertical">
+                <div>Kolya</div>
+                <div>test</div>
+                <div>test</div>
+            </div>
 
-        <PrimarySearchAppBar />
-
-        <DenseTable />
-
-        <PaginationControlled />
-
-    </div>
-  );
+            <div className="horizontal">
+                <div>Muhin</div>
+                <div>test</div>
+                <div>test</div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
