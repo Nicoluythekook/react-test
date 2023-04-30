@@ -5,9 +5,9 @@ function App() {
     return (
         <div className="App container">
             <div className="vertical">
-                <div>Kolya</div>
-                <div>test</div>
-                <div>test</div>
+                <button>Kolya</button>
+                <button>Kolya</button>
+                <button>Kolya</button>
             </div>
 
             <div className="horizontal">
